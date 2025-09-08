@@ -1,4 +1,4 @@
-# Lesson 03 - Explicit Typecasting
+# Lesson 02 - Explicit Typecasting
 
 In this lesson, I learned about **explicit typecasting** in Python, which means manually converting a variable from one type to another.  
 
