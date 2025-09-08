@@ -1,4 +1,4 @@
-# Lesson 02 - Variables and Basic Data Types
+# Lesson 01 - Variables and Basic Data Types
 
 In this lesson, I learned about **variables** in Python and how they act as containers for values.  
 I explored the four common data types:  
