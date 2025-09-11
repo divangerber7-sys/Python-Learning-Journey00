@@ -1,0 +1,47 @@
+#   Dictionary = a collection of {key:value} pairs
+#                ordered and changeable. No duplicates
+
+capitals = {"Sweden": "Stockholm",
+            "Switzerland": "Bern",
+            "Austria": "Vienna",
+            "Netherlands": "Amsterdam"}
+
+# Access values
+print(capitals.get("Austria"))
+
+# Check if key exists
+if capitals.get("Japan"):
+    print("That capital does exist!!")
+else:
+    print("That capital doesn't exist!!")
+
+# Update dictionary
+capitals.update({"Japan": "Tokyo"})
+# capitals.update({"Japan": "Kyoto"})
+
+print(capitals)
+
+# Remove items
+# capitals.pop("Japan")
+capitals.popitem()
+print(capitals)
+
+# Clear dictionary
+# capitals.clear()
+
+# Keys
+keys = capitals.keys()
+print(keys)
+
+for key in capitals:
+    print(key)
+
+# Values
+values = capitals.values()
+for value in capitals.values():
+    print(value)
+
+# Items
+items = capitals.items()
+for key, value in capitals.items():
+    print(f"{key}: {value}")
